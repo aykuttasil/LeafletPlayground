@@ -1,8 +1,8 @@
 var mymap = L
     .map('mapid')
     .setView([
-        51.505, -0.09
-    ], 13);
+        41.05, 29
+    ],11);
 
 L
     .tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
@@ -16,11 +16,11 @@ L
     .addTo(mymap);
 
 var marker = L
-    .marker([51.5, -0.09])
+    .marker([41.1, 29.2])
     .addTo(mymap);
 
 var circle = L.circle([
-    51.508, -0.11
+    41.09, 29.0001
 ], {
     color: 'blue',
     fillColor: '#f03',
